@@ -5,7 +5,7 @@
  */
 
 let str = 'Este é é é um exemplo de como remover palavras repetidas repetidas em um um um um texto texto.';
-let re = /[^\u00C0-\u1FFF\u2C00-\uD7FF\w]/g;
+let re = /[^\u00C0-\u1FFF\u2C00-\uD7FF\w]/g; // used to remove special characters
 
 
 /**
